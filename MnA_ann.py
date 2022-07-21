@@ -106,39 +106,5 @@ ResultsData.plot(x='Parameters', y='Accuracy', figsize=(15,4), kind='line', rot=
 
 # Training the model with best hyperparamters
 classifier.fit(x_train,y_train, batch_size=5 , epochs=100, verbose=1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# accuracy obtained 70.51
 
