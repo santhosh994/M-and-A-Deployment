@@ -85,6 +85,7 @@ classifier.add(Dense(units=1, kernel_initializer='uniform', activation='sigmoid'
 classifier.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 classifier.fit(x_train,y_train, batch_size=10 , epochs=150, verbose=1)
+# accuracy obtained 70.76
 
 
 
